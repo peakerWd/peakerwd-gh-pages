@@ -1,0 +1,12 @@
+markdown: rdiscount
+permalink: /:title/
+url: peakerwd.com
+name: peakerwd.com
+author: 王渡
+qq: 4609747
+email: peakerwd@gmail.com
+duoshuo: peakerwd
+pygments: true
+safe: true
+paginate: 20
+about: 王渡的博客
