@@ -1,4 +1,6 @@
 markdown: rdiscount
+permalink: /:title/
+markdown: rdiscount
 url: peakerwd.com
 name: peakerwd.com
 author: 王渡
