@@ -121,5 +121,5 @@ __不同产品类型的比较举例__
 * 提供订阅的app必须使用IAP,苹果将会从这些收益中获取3层
 * 提供额外机制去购买或订阅的app,比如点击购买按钮,跳转到一个web页面买了一本电子书,苹果将会拒绝这个app
 * 在app之外订阅或购买的版权内容(如音乐,杂志,新闻,书籍,音频或云存储),只要没有购买button或跳转外部的链接,苹果只会收取在app内购买部分的分成
-* app只能使用自动订阅的情况,期刊杂志(报纸,杂志),商业app(enterprise, productivity, professional creative, cloud storage)或媒介app(音频,视频,语音),否则app将会被拒`
+* app只能使用自动订阅的情况,期刊杂志(报纸,杂志),商业app(enterprise, productivity, professional creative, cloud storage)或媒介app(音频,视频,语音),否则app将会被拒
 
