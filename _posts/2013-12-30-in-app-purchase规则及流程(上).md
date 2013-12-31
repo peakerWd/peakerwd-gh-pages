@@ -29,6 +29,7 @@ tags: iOS
 
 __不同产品类型的比较举例__
 ><img Src="../album/ios开发/In-App-Purchase/In-App-Purchase-1.png"/>
+
 ><img Src="../album/ios开发/In-App-Purchase/In-App-Purchase-2.png"/>
 
 #### 关于购买部分的测试
