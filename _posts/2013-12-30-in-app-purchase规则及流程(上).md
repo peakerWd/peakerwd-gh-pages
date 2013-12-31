@@ -28,7 +28,7 @@ tags: iOS
 * 免费订阅类型  
 
 __不同产品类型的比较举例__
-><img Src="../album/ios开发/In-App-Purchase/In-App-Purchase-1.png"/>
+><img Src="../album/ios开发/In-App-Purchase/In-App-Purchase-1.png"/>  
 
 ><img Src="../album/ios开发/In-App-Purchase/In-App-Purchase-2.png"/>
 
@@ -106,6 +106,20 @@ __不同产品类型的比较举例__
 * 当用户订阅变得无效,停止提供可用内容,并更新界面,让用户可以选择重新订阅,并激活它  
 * 当内容发布的时候,让系统跟踪有效期,如果订阅有效,让系统系统来恢复购买,并让用户访问曾经购买过的内容  
 
-
-
+#### 关于付费的app审核(IAP = in-app-purchase)
+* 不符合AppStore的审核机制去解锁相关功能特点,将会被拒
+* 利用其他系统而不是苹果的IAP购买内容,功能或服务的,将会被拒
+* 利用IAP购买任何实际物品或服务的,将会被拒
+* 利用IAP购买的credits或currencies,必须能在app内消费它们
+* 利用IAP购买过期的credits或currencies,将会被拒
+* 利用IAP提供的内容订阅,订阅期至少需要7天,并且使用户在它们的所有设备上都能使用
+* 利用IAP购买的项目必须赋予正确的购买类型
+* 利用IAP购买iOS内置的功能,比如相机等,将会被拒
+* App提供的内容或服务已经过期了一段时间,将会被拒,除非是某些特定的内容(如电影,电视节目)
+* 保险类的app必须免费,不能使用IAP
+* 一般,你的app越贵,审核将会越彻底
+* 提供订阅的app必须使用IAP,苹果将会从这些收益中获取3层
+* 提供额外机制去购买或订阅的app,比如点击购买按钮,跳转到一个web页面买了一本电子书,苹果将会拒绝这个app
+* 在app之外订阅或购买的版权内容(如音乐,杂志,新闻,书籍,音频或云存储),只要没有购买button或跳转外部的链接,苹果只会收取在app内购买部分的分成
+* app只能使用自动订阅的情况,期刊杂志(报纸,杂志),商业app(enterprise, productivity, professional creative, cloud storage)或媒介app(音频,视频,语音),否则app将会被拒`
 
