@@ -1,3 +1,10 @@
+---
+data: 2014-2-26
+layout: post
+thread: 1004
+categories: iOS
+tags: iOS
+---
 # NSRunloop编程
 * 思考 : 我们在开发过程中经常这样思考,开启一条后台线程,如何让线程在有数据的时候工作,没有数据的时候休眠,以节约各种系统资源,NSRunloop可以实现之.
 * 概念 : NSRunLoop是一个事件循环,不停的调度处理输入事件.
