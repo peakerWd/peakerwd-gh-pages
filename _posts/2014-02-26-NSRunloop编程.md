@@ -40,7 +40,7 @@ __操作一个自定义的输入源__
     CFRunLoopSourceRef _runloopSource;
     CFRunLoopRef _runloop;
 }
-@end
+@end  
 
 @implementation TESTAppDelegate
 //开启一条新线程
@@ -50,28 +50,24 @@ __操作一个自定义的输入源__
         [self createCustomRunLoopSource];
     });
 }
-@end
-
+@end  
 // This callback is called when the source is added to a run loop mode.
 static void	schedule(void *info, CFRunLoopRef rl, CFStringRef mode)
 {
     printf("hello\n");
-}
-
+}  
 //This callback is called when the source has fired.
 static void	perform(void *info)
 {
     //void * : 无类型指针,可以指向任何的类型,无需强制转换
     //void : 作用1,对函数返回的限制 作用2,对函数参数的限定
     printf("perform －－");
-}
-
+}  
 // This callback is called when the source is removed from a run loop mode.
 static void	cancel(void *info, CFRunLoopRef rl, CFStringRef mode)
 {
     printf("cancel\n");
-}
-
+}  
 BOOL running = YES;
 - (void)createCustomRunLoopSource
 {
@@ -90,4 +86,4 @@ BOOL running = YES;
     CFRelease(sorce);
 }
 
-</code></pre>
+</pre></code>
