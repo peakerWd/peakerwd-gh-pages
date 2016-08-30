@@ -1,6 +1,7 @@
 
 ## 安装
 
+
 1. 所有个人相关的配置都在 _config.yml 中，修改其中内容：
   * markdown: rdiscount ***（建议不修改）***
   * permalink: /:title/ ***固定链接（建议别修改）***
